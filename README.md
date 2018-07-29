@@ -10,7 +10,8 @@ This document contains the tools and steps for setting up developer environment.
 * [iTerm2](#iterm2)
 * [Sublime Text](#sublime-text)
 * [Eclipse](#eclipse)
-* [Misc Section](#misc)
+* [MySQL](#mysql)
+* [Environment Variables](#misc)
 
 ## Google Chrome
 Download and install the most famous web browser Google Chrome from [Download Google Chrome](https://www.google.co.in/chrome/). Download DMG file and click on it once downloading is finished and drag&drop the Google chrome icon to Applications folder. Unmount the disc when you are done with installation.
@@ -22,29 +23,10 @@ Download and install the most advanced version of terminal from [Download iTerm2
 Download and install the simple and intuitive editor "sublime Text" from [Download SublimeText](https://www.sublimetext.com/).
 
 ## Eclipse
-
 Download and install the Eclipse IDE from [Download Eclipse](https://www.eclipse.org/downloads/).
 
-
-## Misc Section
-### 1) Environment Variables:
-
-- EDIT the Bash profile:
-
-      $ vim  ~/.bash_profile
-
-- Appending the new path (MySQL path) to the existing PATH:
-
-      $ echo 'export PATH=$PATH:/usr/local/mysql-8.0.11-macos10.13-x86_64/bin/' >> ~/.bash_profile
-    
-- Echo the PATH:
-
-      $ echo $PATH
-    
-    
-### 2) MySQL Setup :
-
-Download and install MySQL downloded from [Download MySQL Server](https://dev.mysql.com/downloads/mysql/).
+## MySQL
+Download and install MySQL from [Download MySQL Server](https://dev.mysql.com/downloads/mysql/).
 
 At the end of installation, it will ask you to set username and password. Set the credentials and finish installation.
 After installation, you can login to mysql command line tool and can do further work.
@@ -64,3 +46,18 @@ If suppose, it didnt ask you to enter username/password then you can reset the p
 - Then start the MySQL server with below command.
 
        sudo /usr/local/mysql/support-files/mysql.server start
+
+## Environment Variables:
+If you wish to append a new software path to the existing PATH variable, below are the steps.
+- EDIT the Bash profile:
+
+      $ vim  ~/.bash_profile
+
+- Appending the new path (MySQL path) to the existing PATH:
+
+      $ echo 'export PATH=$PATH:/usr/local/mysql-8.0.11-macos10.13-x86_64/bin/' >> ~/.bash_profile
+    
+- Echo the PATH:
+
+      $ echo $PATH
+
