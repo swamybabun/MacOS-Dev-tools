@@ -7,15 +7,15 @@ This document explains how i setup my developer enviroment with commands.
 
 - EDIT the Bash profile
 
-    vim  ~/.bash_profile
+    **vim  ~/.bash_profile**
 
 - Appending the new path (MySQL path) to the existing PATH
 
-    export PATH=$PATH:/usr/local/mysql-8.0.11-macos10.13-x86_64/bin/   
+    **export PATH=$PATH:/usr/local/mysql-8.0.11-macos10.13-x86_64/bin/**
     
 - Echo the PATH 
 
-    echo $PATH
+    **echo $PATH**
     
     
 # 2) MySQL Setup :
@@ -27,22 +27,22 @@ After installation, you can login to mysql command line tool and can do further 
 
 If suppose, it didnt ask you to enter username/password then you can reset the password with below commands and if you are unable to login to **root** user, then you can do below steps.
 
-Open a Terminal and run below commands.
+- Open a Terminal and run below commands.
 
-**sudo /usr/local/mysql/support-files/mysql.server stop**
+   **sudo /usr/local/mysql/support-files/mysql.server stop**
 
-**sudo ./mysqld_safe --skip-grant-tables**
+   **sudo ./mysqld_safe --skip-grant-tables**
 
-Keep the current terminal running, and open a new terminal and run the below commands.
+- Keep the current terminal running, and open a new terminal and run the below commands.
 
-**mysql -u root**
+   **mysql -u root**
 
-**FLUSH PRIVILEGES;**
+   **FLUSH PRIVILEGES;**
 
-You can set password to your desired one with below command
+- You can set password to your desired one with below command
 
-**ALTER USER 'root'@'localhost' IDENTIFIED BY 'MyNewPass';**
+   **ALTER USER 'root'@'localhost' IDENTIFIED BY 'MyNewPass';**
 
-then start the MySQL server with below command.
+- Then start the MySQL server with below command.
 
-**sudo /usr/local/mysql/support-files/mysql.server start**
+   **sudo /usr/local/mysql/support-files/mysql.server start**
