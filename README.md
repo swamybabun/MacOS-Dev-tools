@@ -11,7 +11,7 @@ This document contains the tools and steps for setting up developer environment.
 * [Sublime Text](#sublime-text)
 * [Eclipse](#eclipse)
 * [MySQL](#mysql)
-* [Environment Variables](#misc)
+* [Environment Variables](#environment-variables)
 
 ## Google Chrome
 Download and install the most famous web browser Google Chrome from [Download Google Chrome](https://www.google.co.in/chrome/). Download DMG file and click on it once downloading is finished and drag&drop the Google chrome icon to Applications folder. Unmount the disc when you are done with installation.
