@@ -1,9 +1,32 @@
 # mac-tools
 Developer tools and commands for Mac OS
 
-This document explains how i setup my developer enviroment with commands.
 
-# 1) Environment Variables:
+This document contains the tools and steps for setting up developer environment. I am using **macOS High Sierra 10.13.6** operating system.  This document considers you are a newbie to the Mac Computer.
+
+## Tools
+
+* [Google Chrome](#google-chrome)
+* [iTerm2](#iterm2)
+* [Sublime Text](#sublime-text)
+* [Eclipse](#eclipse)
+
+# Google Chrome
+Download and install the most famous web browser Google Chrome from https://www.google.co.in/chrome/. Download DMG file and click on it once downloading is finished and drag&drop the Google chrome icon to Applications folder. Unmount the disc when you are done with installation.
+
+# iTerm2
+Download and install the most advanced version of terminal from https://www.iterm2.com/.
+
+# Sublime Text
+Download and install the simple and intuitive editor "sublime Text" from https://www.sublimetext.com/
+
+# Eclipse
+
+Download and install the Eclipse IDE from https://www.eclipse.org/downloads/
+
+
+
+### 1) Environment Variables:
 
 - EDIT the Bash profile
 
@@ -18,7 +41,7 @@ This document explains how i setup my developer enviroment with commands.
     **echo $PATH**
     
     
-# 2) MySQL Setup :
+### 2) MySQL Setup :
 
 Download and install MySQL downloded from https://dev.mysql.com/downloads/mysql/.
 
