@@ -25,8 +25,8 @@ Download and install the simple and intuitive editor "sublime Text" from [Downlo
 ## Eclipse
 Download and install the Eclipse IDE from [Download Eclipse](https://www.eclipse.org/downloads/).
 Go to Eclipse marketplace and install the following plugins, if required -
-      [SVN](http://marketplace.eclipse.org/content/subversive-svn-team-provider), 
-            and then Go to Eclipse-> Preferences -> Team -> SVN -> SVN Connector -> SVNKit ==> select and install.
+      [SVN](http://marketplace.eclipse.org/content/subversive-svn-team-provider)
+            (and then Go to Eclipse-> Preferences -> Team -> SVN -> SVN Connector -> SVNKit ==> select and install.),
       [Themes](http://marketplace.eclipse.org/content/darkest-dark-theme-devstyle),
       [Terminal](http://marketplace.eclipse.org/content/tm-terminal),
       [SonarLint](http://marketplace.eclipse.org/content/sonarlint),
