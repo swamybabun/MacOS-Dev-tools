@@ -31,15 +31,15 @@ Download and install the Eclipse IDE from https://www.eclipse.org/downloads/
 
 - EDIT the Bash profile:
 
-   $ vim  ~/.bash_profile**
+      $ vim  ~/.bash_profile
 
 - Appending the new path (MySQL path) to the existing PATH:
 
-   $ echo 'export PATH=$PATH:/usr/local/mysql-8.0.11-macos10.13-x86_64/bin/' >> ~/.bash_prof
+      $ echo 'export PATH=$PATH:/usr/local/mysql-8.0.11-macos10.13-x86_64/bin/' >> ~/.bash_profile
     
 - Echo the PATH:
 
-   $ echo $PATH
+      $ echo $PATH
     
     
 ### 2) MySQL Setup :
@@ -53,14 +53,14 @@ If suppose, it didnt ask you to enter username/password then you can reset the p
 
 - Open a Terminal and run below commands.
 
-     **sudo /usr/local/mysql/support-files/mysql.server stop**
+      **sudo /usr/local/mysql/support-files/mysql.server stop**
 
-     **sudo ./mysqld_safe --skip-grant-tables**
+       **sudo ./mysqld_safe --skip-grant-tables**
 
 - You can set password to your desired one with below command
 
-     **ALTER USER 'root'@'localhost' IDENTIFIED BY 'MyNewPass';**
+       **ALTER USER 'root'@'localhost' IDENTIFIED BY 'MyNewPass';**
 
 - Then start the MySQL server with below command.
 
-     **sudo /usr/local/mysql/support-files/mysql.server start**
+       **sudo /usr/local/mysql/support-files/mysql.server start**
