@@ -29,20 +29,14 @@ If suppose, it didnt ask you to enter username/password then you can reset the p
 
 - Open a Terminal and run below commands.
 
-   **sudo /usr/local/mysql/support-files/mysql.server stop**
+     **sudo /usr/local/mysql/support-files/mysql.server stop**
 
-   **sudo ./mysqld_safe --skip-grant-tables**
-
-- Keep the current terminal running, and open a new terminal and run the below commands.
-
-   **mysql -u root**
-
-   **FLUSH PRIVILEGES;**
+     **sudo ./mysqld_safe --skip-grant-tables**
 
 - You can set password to your desired one with below command
 
-   **ALTER USER 'root'@'localhost' IDENTIFIED BY 'MyNewPass';**
+     **ALTER USER 'root'@'localhost' IDENTIFIED BY 'MyNewPass';**
 
 - Then start the MySQL server with below command.
 
-   **sudo /usr/local/mysql/support-files/mysql.server start**
+     **sudo /usr/local/mysql/support-files/mysql.server start**
