@@ -10,35 +10,36 @@ This document contains the tools and steps for setting up developer environment.
 * [iTerm2](#iterm2)
 * [Sublime Text](#sublime-text)
 * [Eclipse](#eclipse)
+* [Misc Section](#misc)
 
-# Google Chrome
+## Google Chrome
 Download and install the most famous web browser Google Chrome from https://www.google.co.in/chrome/. Download DMG file and click on it once downloading is finished and drag&drop the Google chrome icon to Applications folder. Unmount the disc when you are done with installation.
 
-# iTerm2
+## iTerm2
 Download and install the most advanced version of terminal from https://www.iterm2.com/.
 
-# Sublime Text
+## Sublime Text
 Download and install the simple and intuitive editor "sublime Text" from https://www.sublimetext.com/
 
-# Eclipse
+## Eclipse
 
 Download and install the Eclipse IDE from https://www.eclipse.org/downloads/
 
 
-
+## Misc Section
 ### 1) Environment Variables:
 
-- EDIT the Bash profile
+- EDIT the Bash profile:
 
-    **vim  ~/.bash_profile**
+   $ vim  ~/.bash_profile**
 
-- Appending the new path (MySQL path) to the existing PATH
+- Appending the new path (MySQL path) to the existing PATH:
 
-    **export PATH=$PATH:/usr/local/mysql-8.0.11-macos10.13-x86_64/bin/**
+   $ echo 'export PATH=$PATH:/usr/local/mysql-8.0.11-macos10.13-x86_64/bin/' >> ~/.bash_prof
     
-- Echo the PATH 
+- Echo the PATH:
 
-    **echo $PATH**
+   $ echo $PATH
     
     
 ### 2) MySQL Setup :
