@@ -24,7 +24,17 @@ Download and install the simple and intuitive editor "sublime Text" from [Downlo
 
 ## Eclipse
 Download and install the Eclipse IDE from [Download Eclipse](https://www.eclipse.org/downloads/).
-
+Go to Eclipse marketplace and install the following plugins, if required -
+      [SVN](http://marketplace.eclipse.org/content/subversive-svn-team-provider), 
+            and then Go to Eclipse-> Preferences -> Team -> SVN -> SVN Connector -> SVNKit ==> select and install.
+      [Themes](http://marketplace.eclipse.org/content/darkest-dark-theme-devstyle),
+      [Terminal](http://marketplace.eclipse.org/content/tm-terminal),
+      [SonarLint](http://marketplace.eclipse.org/content/sonarlint),
+      [Jetty Server](http://marketplace.eclipse.org/content/run-jetty-run),
+      [PyDEV Tools for Python](http://marketplace.eclipse.org/content/pydev-python-ide-eclipse),
+      [Emma Code Coverage](http://marketplace.eclipse.org/content/eclemma-java-code-coverage),
+      [DBWeaver- DB Connector Plugin](http://marketplace.eclipse.org/content/dbeaver)
+      
 ## MySQL
 Download and install MySQL from [Download MySQL Server](https://dev.mysql.com/downloads/mysql/).
 
