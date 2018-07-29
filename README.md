@@ -47,7 +47,7 @@ If suppose, it didnt ask you to enter username/password then you can reset the p
 
        sudo /usr/local/mysql/support-files/mysql.server start
 
-## Environment Variables:
+## Environment Variables
 If you wish to append a new software path to the existing PATH variable, below are the steps.
 - EDIT the Bash profile:
 
