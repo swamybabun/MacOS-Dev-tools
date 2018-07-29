@@ -13,17 +13,17 @@ This document contains the tools and steps for setting up developer environment.
 * [Misc Section](#misc)
 
 ## Google Chrome
-Download and install the most famous web browser Google Chrome from https://www.google.co.in/chrome/. Download DMG file and click on it once downloading is finished and drag&drop the Google chrome icon to Applications folder. Unmount the disc when you are done with installation.
+Download and install the most famous web browser Google Chrome from [Download Google Chrome](https://www.google.co.in/chrome/). Download DMG file and click on it once downloading is finished and drag&drop the Google chrome icon to Applications folder. Unmount the disc when you are done with installation.
 
 ## iTerm2
-Download and install the most advanced version of terminal from https://www.iterm2.com/.
+Download and install the most advanced version of terminal from [Download iTerm2](https://www.iterm2.com/).
 
 ## Sublime Text
-Download and install the simple and intuitive editor "sublime Text" from https://www.sublimetext.com/
+Download and install the simple and intuitive editor "sublime Text" from [Download SublimeText](https://www.sublimetext.com/).
 
 ## Eclipse
 
-Download and install the Eclipse IDE from https://www.eclipse.org/downloads/
+Download and install the Eclipse IDE from [Download Eclipse](https://www.eclipse.org/downloads/).
 
 
 ## Misc Section
@@ -44,7 +44,7 @@ Download and install the Eclipse IDE from https://www.eclipse.org/downloads/
     
 ### 2) MySQL Setup :
 
-Download and install MySQL downloded from https://dev.mysql.com/downloads/mysql/.
+Download and install MySQL downloded from [Download MySQL Server](https://dev.mysql.com/downloads/mysql/).
 
 At the end of installation, it will ask you to set username and password. Set the credentials and finish installation.
 After installation, you can login to mysql command line tool and can do further work.
