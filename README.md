@@ -2,7 +2,7 @@
 Developer tools and commands for Mac OS
 
 
-This document contains the tools and steps for setting up developer environment. I am using **macOS High Sierra 10.13.6** operating system.  This document considers you are a newbie to the Mac Computer.
+This document contains the tools and steps for setting up developer environment. I am using **macOS High Sierra 10.13.6** operating system. This document considers you are a newbie to the Mac Computer.
 
 ## Tools
 
@@ -14,7 +14,7 @@ This document contains the tools and steps for setting up developer environment.
 * [Environment Variables](#environment-variables)
 
 ## Google Chrome
-Download and install the most famous web browser Google Chrome from [Download Google Chrome](https://www.google.co.in/chrome/). Download DMG file and click on it once downloading is finished and drag&drop the Google chrome icon to Applications folder. Unmount the disc when you are done with installation.
+Download and install the most famous web browser Google Chrome from [Download Google Chrome](https://www.google.co.in/chrome/). Download DMG file and click on it once downloading is finished and then drag&drop the Google chrome icon to Applications folder. Unmount the disc, when you are done with installation.
 
 ## iTerm2
 Download and install the most advanced version of terminal from [Download iTerm2](https://www.iterm2.com/).
