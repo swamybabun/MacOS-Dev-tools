@@ -11,7 +11,7 @@ This document contains the tools and steps for setting up developer environment.
 * [Sublime Text](#sublime-text)
 * [Eclipse](#eclipse)
 * [MySQL](#mysql)
-* [HomeBrew](#homeBrew)
+* [HomeBrew](#homebrew)
 * [Environment Variables](#environment-variables)
 
 ## Google Chrome
