@@ -11,6 +11,7 @@ This document contains the tools and steps for setting up developer environment.
 * [Sublime Text](#sublime-text)
 * [Eclipse](#eclipse)
 * [MySQL](#mysql)
+* [HomeBrew](#homeBrew)
 * [Environment Variables](#environment-variables)
 
 ## Google Chrome
@@ -56,6 +57,19 @@ If suppose, it didnt ask you to enter username/password then you can reset the p
 - Then start the MySQL server with below command.
 
        sudo /usr/local/mysql/support-files/mysql.server start
+
+
+## HomeBrew
+
+Install home brew an missing package manager for MacOS by using below command
+
+      /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+      
+      brew upgrade && brew update
+      
+Check if brew installed or not by below command with just typing in terminal.
+
+      brew
 
 ## Environment Variables
 If you wish to append a new software path to the existing PATH variable, below are the steps.
