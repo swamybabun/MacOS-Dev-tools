@@ -61,7 +61,7 @@ If suppose, it didnt ask you to enter username/password then you can reset the p
 
 ## HomeBrew
 
-Install home brew an missing package manager for MacOS by using below command
+Install home brew an missing package manager for MacOS by using below commands one after other.
 
       /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
       
